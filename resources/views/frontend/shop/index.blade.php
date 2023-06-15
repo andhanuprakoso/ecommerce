@@ -10,8 +10,8 @@
             <div class="breadcrumb__text">
               <h2>Organi Shop</h2>
               <div class="breadcrumb__option">
-                <a href="./index.html">Home</a>
-                <span>Shop</span>
+                <a href="./index.html">Beranda</a>
+                <span>Belanja</span>
               </div>
             </div>
           </div>
