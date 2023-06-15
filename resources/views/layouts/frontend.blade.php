@@ -79,17 +79,17 @@
       </div>
       <nav class="humberger__menu__nav mobile-menu">
         <ul>
-          <li class="active"><a href="/">Home</a></li>
-          <li><a href="{{ route('shop.index') }}">Shop</a></li>
+          <li class="active"><a href="/">Beranda</a></li>
+          <li><a href="{{ route('shop.index') }}">Belanja</a></li>
           <li>
-            <a href="#">Categories</a>
+            <a href="#">Kategori</a>
             <ul class="header__menu__dropdown">
               @foreach($menu_categories as $menu_category)
                 <li><a href="{{ route('shop.index', $menu_category->slug) }}">{{ $menu_category->name }}</a></li>
               @endforeach
             </ul>
           </li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#">Kontak</a></li>
         </ul>
       </nav>
       <div id="mobile-menu-wrap"></div>
@@ -167,17 +167,17 @@
           <div class="col-lg-6">
             <nav class="header__menu">
               <ul>
-                <li class="active"><a href="/">Home</a></li>
-                <li><a href="{{ route('shop.index') }}">Shop</a></li>
+                <li class="active"><a href="/">Beranda</a></li>
+                <li><a href="{{ route('shop.index') }}">Belanja</a></li>
                 <li>
-                  <a href="#">Categories</a>
+                  <a href="#">Kategori</a>
                   <ul class="header__menu__dropdown">
                     @foreach($menu_categories as $menu_category)
                       <li><a href="{{ route('shop.index', $menu_category->slug) }}">{{ $menu_category->name }}</a></li>
                     @endforeach
                   </ul>
                 </li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#">Kontak</a></li>
               </ul>
             </nav>
           </div>
@@ -210,19 +210,14 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="hero__search">
-              <div class="hero__search__form">
-                <form action="#">
-                  <input type="text" placeholder="What do yo u need?" />
-                  <button type="submit" class="site-btn">SEARCH</button>
-                </form>
-              </div>
+
               <div class="hero__search__phone">
                 <div class="hero__search__phone__icon">
                   <i class="fa fa-phone"></i>
                 </div>
                 <div class="hero__search__phone__text">
-                  <h5>+65 11.188.888</h5>
-                  <span>support 24/7 time</span>
+                  <h5>082212345678</h5>
+                  <span>WhatsApp</span>
                 </div>
               </div>
             </div>
