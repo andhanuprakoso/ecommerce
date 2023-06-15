@@ -6,7 +6,7 @@
     <meta name="keywords" content="Ogani, unica, creative, html" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Ogani | Template</title>
+    <title>Dodolan Veggies</title>
 
     <!-- Google Font -->
     <link
@@ -52,26 +52,26 @@
           @guest
             <div class="header__top__right__language">
               <div class="header__top__right__auth">
-                <a href="{{ route('login') }}"><i class="fa fa-user"></i> Login</a>
+                <a href="{{ route('login') }}"><i class="fa fa-user"></i> Masuk</a>
               </div>
             </div>
             <div class="header__top__right__auth" style="margin-left: 20px">
-              <a href="{{ route('register') }}"><i class="fa fa-user"></i> Register</a>
+              <a href="{{ route('register') }}"><i class="fa fa-user"></i> Registrasi</a>
             </div>
-          @else 
+          @else
           <div class="header__top__right__language">
             <div class="header__top__right__auth">
               <a href=""><i class="fa fa-user"></i> {{ auth()->user()->username }}</a>
             </div>
             <span class="arrow_carrot-down"></span>
             <ul>
-              <li><a href="#">Profile</a></li>
+              <li><a href="#">Profil</a></li>
             </ul>
           </div>
           <div class="header__top__right__auth" style="margin-left: 20px">
             <a href="#" onclick="event.preventDefault();document.getElementById('logout-form').submit();"><i class="fa fa-user"></i> Logout</a>
             <form action="{{ route('logout') }}" id="logout-form" method="post">
-              @csrf 
+              @csrf
 
             </form>
           </div>
@@ -125,14 +125,14 @@
                       class="header__top__right__language header__top__right__auth"
                     >
                       <a class="d-inline" href="{{ route('login') }}"
-                        ><i class="fa fa-user"></i> Login</a
+                        ><i class="fa fa-user"></i> Masuk</a
                       >
                     </div>
                     <div class="header__top__right__auth">
-                      <a href="{{ route('register') }}"><i class="fa fa-user"></i> Register</a>
+                      <a href="{{ route('register') }}"><i class="fa fa-user"></i> Registrasi</a>
                     </div>
                 </div>
-                @else 
+                @else
                 <div class="header__top__right">
                 <div
                   class="header__top__right__language header__top__right__auth"
@@ -142,13 +142,13 @@
                   >
                   <span class="arrow_carrot-down"></span>
                   <ul>
-                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">Profil</a></li>
                   </ul>
                 </div>
                 <div class="header__top__right__auth">
                   <a href="#" onclick="event.preventDefault();document.getElementById('logout-form').submit()"><i class="fa fa-user"></i> Logout</a>
                   <form action="{{ route('logout') }}" id="logout-form" method="post">
-                    @csrf                   
+                    @csrf
                   </form>
                 </div>
               </div>
@@ -239,18 +239,18 @@
                 <a href="./index.html"><img src="{{ asset('frontend/img/logo.png') }}" alt="" /></a>
               </div>
               <ul>
-                <li>Address: 60-49 Road 11378 New York</li>
-                <li>Phone: +65 11.188.888</li>
-                <li>Email: hello@colorlib.com</li>
+                <li>Alamat: Blater, Purbalingga</li>
+                <li>Telepon: 082212345678</li>
+                <li>Email: DodolanVeggies@gmail.com</li>
               </ul>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-1">
-      
+
 
           </div>
           <div class="col-lg-4 col-md-12">
-            
+
           </div>
         </div>
         <div class="row">
@@ -263,7 +263,7 @@
                   <script>
                     document.write(new Date().getFullYear());
                   </script>
-                  All rights reserved | This template is made with
+                  Dodolan Veggies | All rights reserved | This template is made with
                   <i class="fa fa-heart" aria-hidden="true"></i> by
                   <a href="https://colorlib.com" target="_blank">Colorlib</a>
                   <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
