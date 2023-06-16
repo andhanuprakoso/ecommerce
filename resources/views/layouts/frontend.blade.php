@@ -69,7 +69,7 @@
             </ul>
           </div>
           <div class="header__top__right__auth" style="margin-left: 20px">
-            <a href="#" onclick="event.preventDefault();document.getElementById('logout-form').submit();"><i class="fa fa-user"></i> Logout</a>
+            <a href="#" onclick="event.preventDefault();document.getElementById('logout-form').submit();"><i class="fa fa-user"></i> Keluar</a>
             <form action="{{ route('logout') }}" id="logout-form" method="post">
               @csrf
 
@@ -142,11 +142,11 @@
                   >
                   <span class="arrow_carrot-down"></span>
                   <ul>
-                    <li><a href="#">Profil</a></li>
+                    <li><a href="{{ route('admin.dashboard') }}">Profil</a></li>
                   </ul>
                 </div>
                 <div class="header__top__right__auth">
-                  <a href="#" onclick="event.preventDefault();document.getElementById('logout-form').submit()"><i class="fa fa-user"></i> Logout</a>
+                  <a href="#" onclick="event.preventDefault();document.getElementById('logout-form').submit()"><i class="fa fa-user"></i> Keluar</a>
                   <form action="{{ route('logout') }}" id="logout-form" method="post">
                     @csrf
                   </form>
@@ -259,13 +259,12 @@
               <div class="footer__copyright__text">
                 <p>
                   <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                  Copyright &copy;
+                  
                   <script>
                     document.write(new Date().getFullYear());
                   </script>
-                  Dodolan Veggies | All rights reserved | This template is made with
-                  <i class="fa fa-heart" aria-hidden="true"></i> by
-                  <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                  Dodolan Veggies 
+                  
                   <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                 </p>
               </div>
