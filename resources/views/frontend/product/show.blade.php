@@ -22,7 +22,7 @@
 
     <!-- Product Details Section Begin -->
     <section class="product-details spad" id="product-detail">
-     
+
     </section>
     <!-- Product Details Section End -->
 
@@ -45,9 +45,6 @@
                 data-setbg="{{ $related_product->gallery->first()->getUrl() }}"
               >
                 <ul class="product__item__pic__hover">
-                  <li>
-                    <a href="#"><i class="fa fa-heart"></i></a>
-                  </li>
                   <li>
                     <a href="#"><i class="fa fa-shopping-cart"></i></a>
                   </li>
