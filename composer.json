@@ -17,8 +17,7 @@
         "laravel/tinker": "^2.7",
         "laravel/ui": "^3.4",
         "midtrans/midtrans-php": "^2.5",
-        "spatie/laravel-medialibrary": "^10.0.0",
-        "rizalafani/rajaongkirlaravel" : "dev-master"
+        "spatie/laravel-medialibrary": "^10.0.0"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
@@ -27,7 +26,6 @@
         "nunomaduro/collision": "^6.1",
         "phpunit/phpunit": "^9.5.10",
         "spatie/laravel-ignition": "^1.0"
-
     },
     "autoload": {
         "psr-4": {
