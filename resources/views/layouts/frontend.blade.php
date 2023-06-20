@@ -40,9 +40,6 @@
       <div class="humberger__menu__cart">
         <ul>
           <li>
-            <a href="#"><i class="fa fa-heart"></i> <span>1</span></a>
-          </li>
-          <li>
             <a href="#"><i class="fa fa-shopping-bag"></i> <span>{{ $cartCount }}</span></a>
           </li>
         </ul>
@@ -89,7 +86,7 @@
               @endforeach
             </ul>
           </li>
-        
+
         </ul>
       </nav>
       <div id="mobile-menu-wrap"></div>
@@ -177,16 +174,13 @@
                     @endforeach
                   </ul>
                 </li>
-                <li><a href="#">Kontak</a></li>
+
               </ul>
             </nav>
           </div>
           <div class="col-lg-3">
             <div class="header__cart">
               <ul>
-                <li>
-                  <a href="#"><i class="fa fa-heart"></i> <span>1</span></a>
-                </li>
                 <li>
                   <a href="{{ route('cart.index') }}"
                     ><i class="fa fa-shopping-bag"></i> <span>{{ $cartCount }}</span></a
