@@ -18,7 +18,7 @@
         "laravel/ui": "^3.4",
         "midtrans/midtrans-php": "^2.5",
         "spatie/laravel-medialibrary": "^10.0.0",
-        "kavist/rajaongkir": "^1.1"
+        "rizalafani/rajaongkirlaravel" : "dev-master"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
@@ -69,6 +69,14 @@
         "preferred-install": "dist",
         "sort-packages": true
     },
+
+    "repositories": [
+        {
+            "type": "composer",
+            "url": ""
+        }
+    ],
+
     "minimum-stability": "dev",
     "prefer-stable": true
 
