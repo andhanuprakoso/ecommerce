@@ -69,14 +69,6 @@
         "preferred-install": "dist",
         "sort-packages": true
     },
-
-    "repositories": [
-        {
-            "type": "composer",
-            "url": ""
-        }
-    ],
-
     "minimum-stability": "dev",
     "prefer-stable": true
 
