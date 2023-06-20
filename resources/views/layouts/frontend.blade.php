@@ -89,7 +89,7 @@
               @endforeach
             </ul>
           </li>
-          <li><a href="#">Kontak</a></li>
+        
         </ul>
       </nav>
       <div id="mobile-menu-wrap"></div>
